@@ -1,0 +1,18 @@
+{
+  "name": "server",
+  "version": "0.1.0",
+  "description": "Aplikace WishLI do předmětu ACA",
+  "license": "ISC",
+  "author": "Filip Záleský",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1",
+    "cors": "^2.8.5",
+    "express": "^5.2.1"
+  }
+}
