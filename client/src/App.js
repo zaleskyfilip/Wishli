@@ -1,4 +1,3 @@
-// src/App.js
 import { useState } from "react";
 import AppProviders from "./AppProviders"; 
 import CategoryList from "./CategoryList";
