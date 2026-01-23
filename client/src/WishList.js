@@ -4,8 +4,6 @@ import { useCategoryList } from "./CategoryListProvider";
 import WishModal from "./WishModal";
 import Wish from "./Wish";
 
-// ZDE UŽ ŽÁDNÁ HELPER FUNKCE NENÍ
-
 function WishList() {
   const { data: wishes, handlerMap } = useWishList();
   const { data: categories, categoryMap } = useCategoryList();
